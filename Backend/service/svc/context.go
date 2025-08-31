@@ -1,9 +1,10 @@
 package svc
 
 import (
-	"backend/config"
-	"backend/dao"
 	"context"
+
+	"github.com/ProjectsTask/Backend/config"
+	"github.com/ProjectsTask/Backend/dao"
 
 	"github.com/ProjectsTask/Base/chain/nftchainservice"
 	"github.com/ProjectsTask/Base/logger/xzap"

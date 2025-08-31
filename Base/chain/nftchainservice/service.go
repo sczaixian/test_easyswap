@@ -1,10 +1,11 @@
 package nftchainservice
 
 import (
-	"Base/chain/chainclient"
-	"Base/xhttp"
 	"context"
 	"time"
+
+	"github.com/ProjectsTask/Base/chain/chainclient"
+	"github.com/ProjectsTask/Base/xhttp"
 
 	"github.com/ethereum/go-ethereum/accounts/abi"
 	"github.com/ethereum/go-ethereum/common"

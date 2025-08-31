@@ -4,9 +4,9 @@ import (
 	"context"
 	"math/big"
 
-	"Base/chain"
-	"Base/chain/chainclient/evmclient"
-	logTypes "Base/chain/types"
+	"github.com/ProjectsTask/Base/chain"
+	"github.com/ProjectsTask/Base/chain/chainclient/evmclient"
+	logTypes "github.com/ProjectsTask/Base/chain/types"
 
 	"github.com/ethereum/go-ethereum"
 	"github.com/pkg/errors"

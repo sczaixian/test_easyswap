@@ -1,17 +1,14 @@
 package svc
 
 import (
-	"backend/dao"
-
+	"github.com/ProjectsTask/Backend/dao"
 	"github.com/ProjectsTask/Base/evm/erc"
-
 	"github.com/ProjectsTask/Base/stores/xkv"
-
 	"gorm.io/gorm"
 )
 
 type CtxConfig struct {
-	db      *grom.DB
+	db      *gorm.DB
 	dao     *dao.Dao
 	kvStore *xkv.Store
 	Evm     erc.Erc

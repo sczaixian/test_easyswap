@@ -7,7 +7,7 @@ import (
 	"go.uber.org/zap"
 	"go.uber.org/zap/zapcore"
 
-	logging "Base/logger"
+	logging "github.com/ProjectsTask/Base/logger"
 )
 
 const (

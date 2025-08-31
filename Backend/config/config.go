@@ -73,8 +73,8 @@ func UnmarshalConfig(configFilePath string) (*Config, error) {
 	viper.SetConfigType("toml")
 	viper.AutomaticEnv()
 	viper.SetEnvPrefix("CNFT")
-	viper.SetEnvKeyReplacer(strings.NewReplacer(".", "_"))
-
+	replacer := strings.NewReplacer(".", "_")
+	viper.SetEnvKeyReplacer(replacer)
 	if err := viper.ReadInConfig(); err != nil {
 		return nil, err
 	}

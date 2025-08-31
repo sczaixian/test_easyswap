@@ -10,7 +10,11 @@ import (
 	"gorm.io/gorm/logger"
 	"gorm.io/gorm/schema"
 
-	timeUtil "Base/kit/time"
+	timeUtil "github.com/ProjectsTask/Base/kit/time"
+)
+
+const (
+	OrderBookDexProject = "OrderBookDex"
 )
 
 type Config struct {

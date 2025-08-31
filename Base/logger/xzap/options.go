@@ -1,8 +1,8 @@
 package xzap
 
 import (
-	logging "Base/logger"
 	"context"
+	logging "github.com/ProjectsTask/Base/logger"
 	"time"
 
 	"go.uber.org/zap"

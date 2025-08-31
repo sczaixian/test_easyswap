@@ -1,7 +1,7 @@
 package chain
 
 import (
-	"Base/evm/eip"
+	"github.com/ProjectsTask/Base/evm/eip"
 	"github.com/pkg/errors"
 	"strings"
 )

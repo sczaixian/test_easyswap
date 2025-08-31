@@ -13,7 +13,7 @@ import (
 	"google.golang.org/grpc/codes"
 	"gopkg.in/natefinch/lumberjack.v2"
 
-	logging "Base/logger"
+	logging "github.com/ProjectsTask/Base/logger"
 )
 
 const (
